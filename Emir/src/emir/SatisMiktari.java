@@ -41,8 +41,10 @@ public class SatisMiktari {
 		for(int i=0; i<sa;i++) {
 			for(int j = 0; j< su; j++) {
 				gtop+=sm[i][j];
-				if(sm[i][j]>gmax)gmax=sm[i][j];
-				if(sm[i][j]<gmin)gmin=sm[i][j];
+				if(sm[i][j]>gmax)
+					gmax=sm[i][j];	
+				if(sm[i][j]<gmin)
+					gmin=sm[i][j];
 			}
 		}
 		
