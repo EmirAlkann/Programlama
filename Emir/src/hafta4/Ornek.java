@@ -21,7 +21,7 @@ public class Ornek {
         		Fonksiyonlar.veriGiris(isim, vNot, fNot, bNot);
         		break;
         	case 2:
-        		Fonksiyonlar.Listele(	isim, vNot, fNot, bNot);
+        		Fonksiyonlar.Listele(isim, vNot, fNot, bNot);
         		break;
         	case 3:
         		System.out.println("Vize not ortalaması: "+Fonksiyonlar.Ortalama(vNot));

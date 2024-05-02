@@ -33,7 +33,7 @@ public class Fonksiyonlar {
 		System.out.println("Final notu: ");
 		byte fn=giris.nextByte();
 		fNot.add(fn);
-		bNot.add((byte) (vn*0.4+fn*0.6));
+		bNot.add((byte)(vn*0.4+fn*0.6));
 		
 	}
 
